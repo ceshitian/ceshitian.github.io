@@ -8,6 +8,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Ensure GITHUB_TOKEN has write access to contents
     steps:
       - uses: actions/checkout@v3
         with:
