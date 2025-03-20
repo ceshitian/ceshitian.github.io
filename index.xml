@@ -5,13 +5,17 @@
 &lt;li>使用 Ctrl + K ：删除光标后的整行内容&lt;/li>
 &lt;li>使用 Option + Delete ：删除光标前的一个单词（与 Ctrl + W 类似）
 这些快捷键可以帮助你快速删除命令内容，提高终端操作效率。&lt;/li>
-&lt;/ol></description></item><item><title>关于</title><link>https://example.org/about/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://example.org/about/</guid><description/></item><item><title>友情链接</title><link>https://example.org/friend/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://example.org/friend/</guid><description>&lt;h2 id="本站信息">本站信息&lt;/h2>
-&lt;ul>
+&lt;/ol></description></item><item><title>关于</title><link>https://example.org/about/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://example.org/about/</guid><description/></item><item><title>友情链接</title><link>https://example.org/friend/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://example.org/friend/</guid><description>&lt;h2 id="本站信息">
+&lt;a class="header-anchor" href="#%e6%9c%ac%e7%ab%99%e4%bf%a1%e6%81%af">&lt;/a>
+本站信息
+&lt;/h2>&lt;ul>
 &lt;li>站名： 拔剑Sketon&lt;/li>
 &lt;li>站长： 拔剑Sketon&lt;/li>
 &lt;/ul>
-&lt;h2 id="申请方法">申请方法&lt;/h2>
-&lt;ul>
+&lt;h2 id="申请方法">
+&lt;a class="header-anchor" href="#%e7%94%b3%e8%af%b7%e6%96%b9%e6%b3%95">&lt;/a>
+申请方法
+&lt;/h2>&lt;ul>
 &lt;li>添加本站后，在本页留言，格式如下&lt;/li>
 &lt;/ul>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="l">```yml&lt;/span>&lt;span class="w">
@@ -20,7 +24,9 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">desc&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#简短描述&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#一张图片&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="l">```&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="小伙伴们">小伙伴们&lt;/h2>
-&lt;div class="friends-link">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="小伙伴们">
+&lt;a class="header-anchor" href="#%e5%b0%8f%e4%bc%99%e4%bc%b4%e4%bb%ac">&lt;/a>
+小伙伴们
+&lt;/h2>&lt;div class="friends-link">
  &lt;a href="" target="_blank">&lt;/a>
 &lt;/div></description></item></channel></rss>
