@@ -14,10 +14,10 @@ EOF
 git add .
 
 # 提交更改
-git commit -m "初始化博客源码" --force
+git commit -m "初始化博客源码" 
 
 # 添加远程仓库
 git remote add origin https://github.com/ceshitian/ceshitian.github.io
 
 # 推送到GitHub
-git push -u origin main
+git push -u origin main --force
