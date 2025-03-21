@@ -8,7 +8,6 @@ fi
 
 # 创建.gitignore文件，排除不需要版本控制的文件
 cat > .gitignore << EOF
-public/
 resources/
 .DS_Store
 node_modules/
