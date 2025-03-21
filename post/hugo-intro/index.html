@@ -539,9 +539,11 @@
     <li><a href="#hugo的主要特点">Hugo的主要特点</a></li>
     <li><a href="#安装hugo">安装Hugo</a></li>
     <li><a href="#创建新站点">创建新站点</a></li>
+    <li><a href="#下载插件">下载插件</a></li>
     <li><a href="#添加内容">添加内容</a></li>
     <li><a href="#运行开发服务器">运行开发服务器</a></li>
     <li><a href="#部署网站">部署网站</a></li>
+    <li><a href="#更新维护">更新维护</a></li>
     <li><a href="#总结">总结</a></li>
   </ul>
 </nav>
@@ -743,7 +745,10 @@ Hugo的主要特点
 创建新站点
 </h2><p>使用以下命令创建一个新的Hugo站点：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new site mydocs
-</span></span></code></pre></div><h2 id="添加内容">
+</span></span></code></pre></div><h2 id="下载插件">
+<a class="header-anchor" href="#%e4%b8%8b%e8%bd%bd%e6%8f%92%e4%bb%b6"></a>
+下载插件
+</h2><h2 id="添加内容">
 <a class="header-anchor" href="#%e6%b7%bb%e5%8a%a0%e5%86%85%e5%ae%b9"></a>
 添加内容
 </h2><p>在content目录下创建Markdown文件来添加内容：</p>
@@ -758,11 +763,121 @@ Hugo的主要特点
 部署网站
 </h2><p>使用以下命令生成静态文件：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo
-</span></span></code></pre></div><p>然后将public目录下的文件部署到Web服务器即可。</p>
+</span></span></code></pre></div><ol>
+<li>
+<p>然后将public目录下的文件部署到Web服务器即可，注意每次推送前运行hugo更新public文件夹</p>
+</li>
+<li>
+<p>若有更新域名，请删除public后，再运行hugo重新生成public，否则会出现路由错误的情况。</p>
+</li>
+<li>
+<p>为了方便新建.sh脚本文件，命名为.command.sh</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 判断是否已初始化Git仓库</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> ! -d <span class="s2">&#34;.git&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">echo</span> <span class="s2">&#34;未检测到Git仓库，正在初始化...&#34;</span>
+</span></span><span class="line"><span class="cl">    git init
+</span></span><span class="line"><span class="cl"><span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">echo</span> <span class="s2">&#34;Git仓库已初始化&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 创建.gitignore文件，排除不需要版本控制的文件</span>
+</span></span><span class="line"><span class="cl">cat &gt; .gitignore <span class="s">&lt;&lt; EOF
+</span></span></span><span class="line"><span class="cl"><span class="s">resources/
+</span></span></span><span class="line"><span class="cl"><span class="s">.DS_Store
+</span></span></span><span class="line"><span class="cl"><span class="s">node_modules/
+</span></span></span><span class="line"><span class="cl"><span class="s">.hugo_build.lock
+</span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 添加所有文件</span>
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 提交更改</span>
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;更新博客&#34;</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 检查是否已关联远程仓库</span>
+</span></span><span class="line"><span class="cl"><span class="nv">REMOTE_URL</span><span class="o">=</span><span class="k">$(</span>git remote get-url origin 2&gt;/dev/null<span class="k">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> -z <span class="s2">&#34;</span><span class="nv">$REMOTE_URL</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">echo</span> <span class="s2">&#34;未检测到远程仓库，正在添加...&#34;</span>
+</span></span><span class="line"><span class="cl">    git remote add origin https://github.com/bluespace3/bluespace3.github.io
+</span></span><span class="line"><span class="cl"><span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">echo</span> <span class="s2">&#34;已关联远程仓库：</span><span class="nv">$REMOTE_URL</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 推送到GitHub</span>
+</span></span><span class="line"><span class="cl">git push -u origin main --force
+</span></span></code></pre></div><ol start="4">
+<li>终端运行 ..command.sh</li>
+</ol>
+<h2 id="更新维护">
+<a class="header-anchor" href="#%e6%9b%b4%e6%96%b0%e7%bb%b4%e6%8a%a4"></a>
+更新维护
+</h2><p>后期维护有许多要留意的地方否则容易踩坑。</p>
+<ol>
+<li>
+<p>新增文章，在项目根目录终端运行，hugo new content/post/文章名称 不同主题博客目录不一致，这里需要留意你下载主题的说明。</p>
+</li>
+<li>
+<p>生成的文章会自带字段，其中draft默认true需要维护成false或者删掉，否则视为草稿。如下：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">title: &#34;测试平台教程&#34;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">date: 2025-03-20T12:59:32+08:00
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">draft: false
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">tags: [&#34;测试平台&#34;, &#34;静态网站&#34;, &#34;教程&#34;]
+</span></span></code></pre></div></li>
+</ol>
+<p>3.若只有一台电脑更新博客，可以只把public托管到github，若要多个终端更新。需要满足以下条件。</p>
+<ul>
+<li>
+<p>终端的hugo版本和主题保持需要保持一致，建议把主题配置在hugo.toml文件里面。否则本地有多个主题时在运行时要指定主题。</p>
+<p><code>hugo -t hugo-theme-reimu</code></p>
+</li>
+<li>
+<p>需要把整个项目推到github，并且指定githubPage为存放public的分支。需要建立工作流，脚本如下。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">name: Deploy Hugo site
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">on:
+</span></span><span class="line"><span class="cl">  push:
+</span></span><span class="line"><span class="cl">    branches:
+</span></span><span class="line"><span class="cl">      - main  <span class="c1"># 或者你的默认分支名</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">jobs:
+</span></span><span class="line"><span class="cl">  deploy:
+</span></span><span class="line"><span class="cl">    runs-on: ubuntu-latest
+</span></span><span class="line"><span class="cl">    permissions:
+</span></span><span class="line"><span class="cl">      contents: write  <span class="c1"># Ensure GITHUB_TOKEN has write access to contents</span>
+</span></span><span class="line"><span class="cl">    steps:
+</span></span><span class="line"><span class="cl">      - uses: actions/checkout@v3
+</span></span><span class="line"><span class="cl">        with:
+</span></span><span class="line"><span class="cl">          submodules: <span class="nb">false</span>  <span class="c1"># 确保自动拉取子模块</span>
+</span></span><span class="line"><span class="cl">          fetch-depth: <span class="m">0</span>    <span class="c1"># 获取所有历史记录和标签</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      - name: Setup Hugo
+</span></span><span class="line"><span class="cl">        uses: peaceiris/actions-hugo@v2
+</span></span><span class="line"><span class="cl">        with:
+</span></span><span class="line"><span class="cl">          hugo-version: <span class="s1">&#39;latest&#39;</span>
+</span></span><span class="line"><span class="cl">          extended: <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      - name: Build
+</span></span><span class="line"><span class="cl">        run: hugo --minify
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      - name: Deploy
+</span></span><span class="line"><span class="cl">        uses: peaceiris/actions-gh-pages@v3
+</span></span><span class="line"><span class="cl">        with:
+</span></span><span class="line"><span class="cl">          github_token: <span class="si">${</span><span class="p">{ secrets.GITHUB_TOKEN </span><span class="si">}</span><span class="o">}</span>
+</span></span><span class="line"><span class="cl">          publish_dir: ./public
+</span></span><span class="line"><span class="cl">          publish_branch: gh-pages  <span class="c1"># 部署到gh-pages分支</span>
+</span></span></code></pre></div></li>
+</ul>
 <h2 id="总结">
 <a class="header-anchor" href="#%e6%80%bb%e7%bb%93"></a>
 总结
-</h2><p>Hugo是一个功能强大且易于使用的静态网站生成器，非常适合构建个人博客、文档网站等。通过本指南，您已经了解了Hugo的基本使用方法，接下来可以探索更多高级功能。</p>
+</h2><p>Hugo是一个功能强大且易于使用的静态网站生成器，非常适合构建个人博客、文档网站等。</p>
+<p>优点是能快速构建，丰富的模板生态，方便的托管到github，后期维护成本低。</p>
+<p>缺点：只支持md格式，不支持在线编辑，因为只支持通过代码push到远程仓库更新，所以在切换终端时简直是噩梦，笔者在此处踩坑无数，特别需要注意这里。</p>
 
       
     </div>
@@ -827,7 +942,7 @@ Hugo的主要特点
           
           
             <img
-              data-src="https://s21.ax1x.com/2025/03/21/pE0PwvR.jpg"
+              data-src="https://s21.ax1x.com/2025/03/21/pE0CfBV.png"
               data-sizes="auto"
               alt="linux安装python"
               class="lazyload"
@@ -980,7 +1095,7 @@ Hugo的主要特点
       <div>
         <span class="icon-brush"
           >&nbsp;
-            4.4k
+            4.6k
           </span
         >
         &nbsp;|&nbsp;
@@ -1036,9 +1151,11 @@ Hugo的主要特点
     <li><a href="#hugo的主要特点">Hugo的主要特点</a></li>
     <li><a href="#安装hugo">安装Hugo</a></li>
     <li><a href="#创建新站点">创建新站点</a></li>
+    <li><a href="#下载插件">下载插件</a></li>
     <li><a href="#添加内容">添加内容</a></li>
     <li><a href="#运行开发服务器">运行开发服务器</a></li>
     <li><a href="#部署网站">部署网站</a></li>
+    <li><a href="#更新维护">更新维护</a></li>
     <li><a href="#总结">总结</a></li>
   </ul>
 </nav>
@@ -1397,7 +1514,7 @@ Hugo的主要特点
           author: "新人类",
           title: "Hugo静态网站生成器入门指南",
           url: "https:\/\/bluespace3.github.io\/post\/hugo-intro\/",
-          description: "\r什么是Hugo？\rHugo是一个用Go语言编写的快速、现代的静态网站生成器。它可以将Markdown文件转换为HTML页面，非常适合构建文档网站、博客等。\nHugo的主要特点\r极快的构建速度 丰富的主题支持 简单的Markdown内容管理 强大的模板系统 内置的短代码功能 安装Hugo\r在Windows上安装Hugo的步骤：\n下载Hugo的Windows版本 解压到指定目录 将Hugo的可执行文件路径添加到系统环境变量 创建新站点\r使用以下命令创建一个新的Hugo站点：\nhugo new site mydocs 添加内容\r在content目录下创建Markdown文件来添加内容：\nhugo …",
+          description: "\r什么是Hugo？\rHugo是一个用Go语言编写的快速、现代的静态网站生成器。它可以将Markdown文件转换为HTML页面，非常适合构建文档网站、博客等。\nHugo的主要特点\r极快的构建速度 丰富的主题支持 简单的Markdown内容管理 强大的模板系统 内置的短代码功能 安装Hugo\r在Windows上安装Hugo的步骤：\n下载Hugo的Windows版本 解压到指定目录 将Hugo的可执行文件路径添加到系统环境变量 创建新站点\r使用以下命令创建一个新的Hugo站点：\nhugo new site mydocs 下载插件\r添加内容\r在content目录下创建Markdown文件来添加内容： …",
           cover: "https:\/\/bluespace3.github.io\/images\/78ac40f951241471287ff985bc25b24b2f03a241.jpg",
         };
       </script>
