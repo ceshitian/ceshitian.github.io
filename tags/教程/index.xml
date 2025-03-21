@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>教程 on 蓝色空间号-新世界的探索者</title><link>https://ceshitian.github.io/tags/%E6%95%99%E7%A8%8B/</link><description>Recent content in 教程 on 蓝色空间号-新世界的探索者</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 20 Mar 2025 12:59:32 +0800</lastBuildDate><atom:link href="https://ceshitian.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>docker常用命令</title><link>https://ceshitian.github.io/post/docker%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/docker%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</guid><description>&lt;p>docker pull ubuntu 载入ubuntu 镜像&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>教程 on 蓝色空间号-新世界的探索者</title><link>https://bluespace3.github.io/tags/%E6%95%99%E7%A8%8B/</link><description>Recent content in 教程 on 蓝色空间号-新世界的探索者</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 20 Mar 2025 12:59:32 +0800</lastBuildDate><atom:link href="https://bluespace3.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>docker常用命令</title><link>https://bluespace3.github.io/post/docker%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/docker%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</guid><description>&lt;p>docker pull ubuntu 载入ubuntu 镜像&lt;/p>
 &lt;p>docker pull training/webapp # 载入镜像&lt;/p>
 &lt;p>docker pull python:3.7 安装python镜像&lt;/p>
 &lt;p>docker pull nginx 安装nginx镜像&lt;/p>
@@ -13,7 +13,7 @@
 &lt;p>docker logs -f id 查看应用日志&lt;/p>
 &lt;p>docker logs -f -t &amp;ndash;tail=100 dockerid 动态查看最新100条日志&lt;/p>
 &lt;p>docker top id 查看容器内部应用进程&lt;/p>
-&lt;p>docker ps -a 查看所有容器(可查容器id)&lt;/p></description></item><item><title>Git submodule</title><link>https://ceshitian.github.io/post/git-submodule/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/git-submodule/</guid><description>&lt;ul>
+&lt;p>docker ps -a 查看所有容器(可查容器id)&lt;/p></description></item><item><title>Git submodule</title><link>https://bluespace3.github.io/post/git-submodule/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/git-submodule/</guid><description>&lt;ul>
 &lt;li>
 &lt;ul>
 &lt;li>&lt;a href="https://guangpuyun.feishu.cn/docx/J6CDd7QvkohJ3mxEKt3czp31nOe#J6CDd7QvkohJ3mxEKt3czp31nOe">Git submodule添加子项目_库&lt;/a>&lt;/li>
@@ -50,7 +50,7 @@
 &lt;p>下载的工程带有submodule&lt;/p>
 &lt;p>当使用git clone下来的工程中带有submodule时，初始的时候，submodule的内容并不会自动下载下来的，此时，只需执行如下命令：&lt;/p>
 &lt;p>git submodule update –init –recursive&lt;/p>
-&lt;p>即可将子模块内容下载下来后工程才不会缺少相应的文件。&lt;/p></description></item><item><title>git子项目</title><link>https://ceshitian.github.io/post/git%E6%B7%BB%E5%8A%A0%E5%AD%90%E9%A1%B9%E7%9B%AE/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/git%E6%B7%BB%E5%8A%A0%E5%AD%90%E9%A1%B9%E7%9B%AE/</guid><description>&lt;ul>
+&lt;p>即可将子模块内容下载下来后工程才不会缺少相应的文件。&lt;/p></description></item><item><title>git子项目</title><link>https://bluespace3.github.io/post/git%E6%B7%BB%E5%8A%A0%E5%AD%90%E9%A1%B9%E7%9B%AE/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/git%E6%B7%BB%E5%8A%A0%E5%AD%90%E9%A1%B9%E7%9B%AE/</guid><description>&lt;ul>
 &lt;li>项目中添加子项目
 &lt;ul>
 &lt;li>1、git clone 父项目url&lt;/li>
@@ -65,7 +65,7 @@
 不加&amp;ndash;recurse-submodules，克隆的子项目是空的&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Hugo静态网站生成器入门指南</title><link>https://ceshitian.github.io/post/hugo-intro/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/hugo-intro/</guid><description>&lt;h2 id="什么是hugo">什么是Hugo？&lt;/h2>
+&lt;/ul></description></item><item><title>Hugo静态网站生成器入门指南</title><link>https://bluespace3.github.io/post/hugo-intro/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/hugo-intro/</guid><description>&lt;h2 id="什么是hugo">什么是Hugo？&lt;/h2>
 &lt;p>Hugo是一个用Go语言编写的快速、现代的静态网站生成器。它可以将Markdown文件转换为HTML页面，非常适合构建文档网站、博客等。&lt;/p>
 &lt;h2 id="hugo的主要特点">Hugo的主要特点&lt;/h2>
 &lt;ul>
@@ -96,7 +96,7 @@
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">hugo
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后将public目录下的文件部署到Web服务器即可。&lt;/p>
 &lt;h2 id="总结">总结&lt;/h2>
-&lt;p>Hugo是一个功能强大且易于使用的静态网站生成器，非常适合构建个人博客、文档网站等。通过本指南，您已经了解了Hugo的基本使用方法，接下来可以探索更多高级功能。&lt;/p></description></item><item><title>linux安装python</title><link>https://ceshitian.github.io/post/linux%E5%AE%89%E8%A3%85python/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/linux%E5%AE%89%E8%A3%85python/</guid><description>&lt;p>#依赖包&lt;/p>
+&lt;p>Hugo是一个功能强大且易于使用的静态网站生成器，非常适合构建个人博客、文档网站等。通过本指南，您已经了解了Hugo的基本使用方法，接下来可以探索更多高级功能。&lt;/p></description></item><item><title>linux安装python</title><link>https://bluespace3.github.io/post/linux%E5%AE%89%E8%A3%85python/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/linux%E5%AE%89%E8%A3%85python/</guid><description>&lt;p>#依赖包&lt;/p>
 &lt;p>yum -y groupinstall &amp;ldquo;Development tools&amp;rdquo;&lt;/p>
 &lt;p>yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel&lt;/p>
 &lt;p>#下载 Python3&lt;/p>
@@ -110,7 +110,7 @@
 &lt;p>make &amp;amp;&amp;amp; make install&lt;/p>
 &lt;p>#给个软链&lt;/p>
 &lt;p>ln -sf /usr/local/python3/bin/python3 /usr/bin/python3&lt;/p>
-&lt;p>ln -sf /usr/local/python3/bin/pip3 /usr/bin/pip3&lt;/p></description></item><item><title>python常见踩坑记录</title><link>https://ceshitian.github.io/post/python%E9%9D%9E%E5%90%8C%E7%BA%A7%E7%9B%AE%E5%BD%95%E8%B0%83%E7%94%A8%E6%8A%A5%E9%94%99/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/python%E9%9D%9E%E5%90%8C%E7%BA%A7%E7%9B%AE%E5%BD%95%E8%B0%83%E7%94%A8%E6%8A%A5%E9%94%99/</guid><description>&lt;h2 id="项目结构">项目结构：&lt;/h2>
+&lt;p>ln -sf /usr/local/python3/bin/pip3 /usr/bin/pip3&lt;/p></description></item><item><title>python常见踩坑记录</title><link>https://bluespace3.github.io/post/python%E9%9D%9E%E5%90%8C%E7%BA%A7%E7%9B%AE%E5%BD%95%E8%B0%83%E7%94%A8%E6%8A%A5%E9%94%99/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/python%E9%9D%9E%E5%90%8C%E7%BA%A7%E7%9B%AE%E5%BD%95%E8%B0%83%E7%94%A8%E6%8A%A5%E9%94%99/</guid><description>&lt;h2 id="项目结构">项目结构：&lt;/h2>
 &lt;p>&lt;img src="https://guangpuyun.feishu.cn/space/api/box/stream/download/asynccode/?code=N2E4ZjQ0N2I5MmEwYWExMjg1YmVmOTcyZTBhNTk1ZTlfdXlaSzZjU09wSE5mR1AyYTBuYVg1SElQcHJIUENSVWpfVG9rZW46S3AyMmI4bFN1b2VjeG54V251Q2NzMHBhbm5nXzE3NDI0NjExMTk6MTc0MjQ2NDcxOV9WNA" alt="">&lt;/p>
 &lt;h2 id="问题">问题：&lt;/h2>
 &lt;p>执行文件调用dir1，间接调用dir2。执行时报错：“ModuleNotFoundError: No module named &amp;lsquo;dir1.dir2&amp;rsquo;;”&lt;/p>
@@ -128,7 +128,7 @@ import os,sys&lt;/p>
 &lt;p>且导包从项目执行入口文件同级开始写&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://guangpuyun.feishu.cn/space/api/box/stream/download/asynccode/?code=MzlhZjJjZjgzNzk4YjdjNzU2ZWQ1ZDdjMjA5ODI0MDZfTzN2ZmlQOVM0a1BERU95VkY1amZ5bTFXMEJsc09pTExfVG9rZW46UlgyTmJCdHdLb0I5Z2d4VktJcmNEbDNvblljXzE3NDI0NjExMTk6MTc0MjQ2NDcxOV9WNA" alt="">&lt;/p></description></item><item><title>python的os模块使用</title><link>https://ceshitian.github.io/post/python%E4%B8%AD%E7%9A%84os%E5%87%BD%E6%95%B0%E7%94%A8%E6%B3%95/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/python%E4%B8%AD%E7%9A%84os%E5%87%BD%E6%95%B0%E7%94%A8%E6%B3%95/</guid><description>&lt;ul>
+&lt;p>&lt;img src="https://guangpuyun.feishu.cn/space/api/box/stream/download/asynccode/?code=MzlhZjJjZjgzNzk4YjdjNzU2ZWQ1ZDdjMjA5ODI0MDZfTzN2ZmlQOVM0a1BERU95VkY1amZ5bTFXMEJsc09pTExfVG9rZW46UlgyTmJCdHdLb0I5Z2d4VktJcmNEbDNvblljXzE3NDI0NjExMTk6MTc0MjQ2NDcxOV9WNA" alt="">&lt;/p></description></item><item><title>python的os模块使用</title><link>https://bluespace3.github.io/post/python%E4%B8%AD%E7%9A%84os%E5%87%BD%E6%95%B0%E7%94%A8%E6%B3%95/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/python%E4%B8%AD%E7%9A%84os%E5%87%BD%E6%95%B0%E7%94%A8%E6%B3%95/</guid><description>&lt;ul>
 &lt;li>os.listdir(path)
 获取文件夹下全部文件，的列表&lt;/li>
 &lt;li>os.path.join(path1,path2)
@@ -136,7 +136,7 @@ import os,sys&lt;/p>
 &lt;li>base_dir = os.path.dirname(os.path.abspath(&lt;strong>file&lt;/strong>))
 获取当前文件的绝对路径&lt;/li>
 &lt;li>input_file = os.path.join(base_dir, &lt;strong>&amp;quot;../resource/swaggerApi/clinic-ysb-app_OpenAPI.json&amp;quot;&lt;/strong>)&lt;/li>
-&lt;/ul></description></item><item><title>scrapy爬柚子网示例</title><link>https://ceshitian.github.io/post/scrapy%E7%88%AC%E6%9F%9A%E5%AD%90%E7%BD%91%E7%A4%BA%E4%BE%8B/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/scrapy%E7%88%AC%E6%9F%9A%E5%AD%90%E7%BD%91%E7%A4%BA%E4%BE%8B/</guid><description>&lt;p>柚子网https://www.uu-zz.com/&lt;/p>
+&lt;/ul></description></item><item><title>scrapy爬柚子网示例</title><link>https://bluespace3.github.io/post/scrapy%E7%88%AC%E6%9F%9A%E5%AD%90%E7%BD%91%E7%A4%BA%E4%BE%8B/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/scrapy%E7%88%AC%E6%9F%9A%E5%AD%90%E7%BD%91%E7%A4%BA%E4%BE%8B/</guid><description>&lt;p>柚子网https://www.uu-zz.com/&lt;/p>
 &lt;p>爬取页码&lt;/p>
 &lt;p>遍历页面内对应的视频集的链接&lt;/p>
 &lt;p>&lt;img src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/O1YCbvbQBoiZYHxxbO7cqOi6nKb?preview_type=16" alt="">&lt;/p>
@@ -144,7 +144,7 @@ import os,sys&lt;/p>
 &lt;p>&lt;img src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/CKMPbtR4souEnDxWowNcxAuenNc?preview_type=16" alt="">!&lt;/p>
 &lt;p>&lt;a href="https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.uu-zz.com%2F%2B%E5%AD%90%E8%A7%86%E9%A2%91%E9%93%BE%E6%8E%A5&amp;amp;scene=ccm&amp;amp;logParams=%7B%22location%22%3A%22ccm_mindnote%22%7D&amp;amp;lang=zh-CN">https://www.uu-zz.com/+子视频链接&lt;/a>，发送get请求&lt;/p>
 &lt;p>&lt;img src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/ClLDbx3s5o29xpxWKrncnG3Enzg?preview_type=16" alt="">!&lt;/p>
-&lt;p>获得m3u8文件，储存在数据库&lt;/p></description></item><item><title>unnitest</title><link>https://ceshitian.github.io/post/unnitest%E7%AC%94%E8%AE%B0/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/unnitest%E7%AC%94%E8%AE%B0/</guid><description>&lt;ul>
+&lt;p>获得m3u8文件，储存在数据库&lt;/p></description></item><item><title>unnitest</title><link>https://bluespace3.github.io/post/unnitest%E7%AC%94%E8%AE%B0/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/unnitest%E7%AC%94%E8%AE%B0/</guid><description>&lt;ul>
 &lt;li>一、引入
 &lt;ul>
 &lt;li>1.导包，import unnitest&lt;/li>
@@ -200,7 +200,7 @@ import os,sys&lt;/p>
 &lt;/li>
 &lt;li>面试相关&lt;img src="image/unnitest%E7%AC%94%E8%AE%B0/1742460820437.png" alt="1742460820437">&lt;/li>
 &lt;li>pycharm关闭pytest测试模式&lt;img src="image/unnitest%E7%AC%94%E8%AE%B0/1742460849632.png" alt="1742460849632">&lt;/li>
-&lt;/ul></description></item><item><title>测试平台教程</title><link>https://ceshitian.github.io/post/%E6%B5%8B%E8%AF%95%E5%B9%B3%E5%8F%B0%E5%88%86%E4%BA%AB/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/%E6%B5%8B%E8%AF%95%E5%B9%B3%E5%8F%B0%E5%88%86%E4%BA%AB/</guid><description>&lt;p>一、基本介绍：（）
+&lt;/ul></description></item><item><title>测试平台教程</title><link>https://bluespace3.github.io/post/%E6%B5%8B%E8%AF%95%E5%B9%B3%E5%8F%B0%E5%88%86%E4%BA%AB/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/%E6%B5%8B%E8%AF%95%E5%B9%B3%E5%8F%B0%E5%88%86%E4%BA%AB/</guid><description>&lt;p>一、基本介绍：（）
 桌面端工具（一年左右），使用python的wxpython框架编写，使用pyinstaller打包为桌面exe文件；缺点：体积大，不便于分享；&lt;/p>
 &lt;p>&lt;img src="./images/image_0fa5b6bdd33056f5c14c2ba21dca4298.png" alt="">&lt;/p>
 &lt;p>web端应用（10月初至今）：flask+vue实现；优点，通过脚本实现热更新；链接形式便于分享。&lt;/p>
@@ -251,7 +251,7 @@ bind = &amp;ldquo;0.0.0.0:80&amp;rdquo; 监听IP放宽，以便于Docker之间�
 采用启动服务：
 gunicorn flask_index:app -c ./gunicorn.conf.py
 注意：Gunicorn只能运行在Linux环境中，不支持windows平台，因此在windows调试的时候不要用这个方式启动flask；
-2. 前端：vue 、node.js（前端的包管理工具，类似python的pip包管理工具）、vue-cli（vue项目的脚手架）、element-ui、echats提供页面交互;&lt;/p></description></item><item><title>提示词技巧</title><link>https://ceshitian.github.io/post/%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%8A%80%E5%B7%A7/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%8A%80%E5%B7%A7/</guid><description>&lt;p>提示词技巧
+2. 前端：vue 、node.js（前端的包管理工具，类似python的pip包管理工具）、vue-cli（vue项目的脚手架）、element-ui、echats提供页面交互;&lt;/p></description></item><item><title>提示词技巧</title><link>https://bluespace3.github.io/post/%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%8A%80%E5%B7%A7/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%8A%80%E5%B7%A7/</guid><description>&lt;p>提示词技巧
 总结：&lt;/p>
 &lt;p>&lt;img src="./images/image_ba757d41c7a7ffe6c96cab21733204f5.png" alt="">&lt;/p>
 &lt;p>&lt;img src="./images/image_8cbe461813a474391f33fb335ebab8f6.png" alt="">&lt;/p>

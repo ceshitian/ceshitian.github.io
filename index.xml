@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝色空间号-新世界的探索者</title><link>https://ceshitian.github.io/algolia.json</link><description>Recent content on 蓝色空间号-新世界的探索者</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 20 Mar 2025 13:48:29 +0800</lastBuildDate><atom:link href="https://ceshitian.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>MCP入门指南</title><link>https://ceshitian.github.io/post/mcp-intro/</link><pubDate>Thu, 20 Mar 2025 13:48:29 +0800</pubDate><guid>https://ceshitian.github.io/post/mcp-intro/</guid><description>&lt;h2 id="什么是mcp">什么是MCP？&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蓝色空间号-新世界的探索者</title><link>https://bluespace3.github.io/algolia.json</link><description>Recent content on 蓝色空间号-新世界的探索者</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 20 Mar 2025 13:48:29 +0800</lastBuildDate><atom:link href="https://bluespace3.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>MCP入门指南</title><link>https://bluespace3.github.io/post/mcp-intro/</link><pubDate>Thu, 20 Mar 2025 13:48:29 +0800</pubDate><guid>https://bluespace3.github.io/post/mcp-intro/</guid><description>&lt;h2 id="什么是mcp">什么是MCP？&lt;/h2>
 &lt;p>MCP（Model Context Protocol）是一种用于扩展和增强开发工具功能的协议。它允许开发者创建和使用MCP服务器，这些服务器可以提供额外的工具和资源，以提高开发效率和灵活性。&lt;/p>
 &lt;h2 id="mcp的安装">MCP的安装&lt;/h2>
 &lt;p>MCP的安装通常包括以下步骤：&lt;/p>
@@ -65,7 +65,7 @@
 &lt;/ul>
 &lt;p>通过使用这些热门MCP工具，开发者可以大大提高开发效率和代码质量，更好地完成项目开发任务。&lt;/p>
 &lt;h2 id="总结">总结&lt;/h2>
-&lt;p>MCP是一种强大的开发工具扩展协议，可以帮助开发者创建和使用各种工具和资源。通过本指南，您已经了解了MCP的基本使用方法，接下来可以探索更多高级功能和热门工具。&lt;/p></description></item><item><title>pytest入门指南</title><link>https://ceshitian.github.io/post/pytest-intro/</link><pubDate>Thu, 20 Mar 2025 13:42:48 +0800</pubDate><guid>https://ceshitian.github.io/post/pytest-intro/</guid><description>&lt;h2 id="什么是pytest">什么是pytest？&lt;/h2>
+&lt;p>MCP是一种强大的开发工具扩展协议，可以帮助开发者创建和使用各种工具和资源。通过本指南，您已经了解了MCP的基本使用方法，接下来可以探索更多高级功能和热门工具。&lt;/p></description></item><item><title>pytest入门指南</title><link>https://bluespace3.github.io/post/pytest-intro/</link><pubDate>Thu, 20 Mar 2025 13:42:48 +0800</pubDate><guid>https://bluespace3.github.io/post/pytest-intro/</guid><description>&lt;h2 id="什么是pytest">什么是pytest？&lt;/h2>
 &lt;p>pytest是一个功能强大且易于使用的Python测试框架。它可以帮助开发者编写简洁、可读性强的测试代码，并提供丰富的插件支持。&lt;/p>
 &lt;h2 id="pytest的主要特点">pytest的主要特点&lt;/h2>
 &lt;ul>
@@ -100,7 +100,7 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">test_eval&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">test_input&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">expected&lt;/span>&lt;span class="p">):&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">assert&lt;/span> &lt;span class="nb">eval&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">test_input&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="n">expected&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="总结">总结&lt;/h2>
-&lt;p>pytest是一个功能强大且易于使用的Python测试框架，可以帮助开发者编写简洁、可读性强的测试代码。通过本指南，您已经了解了pytest的基本使用方法，接下来可以探索更多高级功能。&lt;/p></description></item><item><title>docker常用命令</title><link>https://ceshitian.github.io/post/docker%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/docker%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</guid><description>&lt;p>docker pull ubuntu 载入ubuntu 镜像&lt;/p>
+&lt;p>pytest是一个功能强大且易于使用的Python测试框架，可以帮助开发者编写简洁、可读性强的测试代码。通过本指南，您已经了解了pytest的基本使用方法，接下来可以探索更多高级功能。&lt;/p></description></item><item><title>docker常用命令</title><link>https://bluespace3.github.io/post/docker%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/docker%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</guid><description>&lt;p>docker pull ubuntu 载入ubuntu 镜像&lt;/p>
 &lt;p>docker pull training/webapp # 载入镜像&lt;/p>
 &lt;p>docker pull python:3.7 安装python镜像&lt;/p>
 &lt;p>docker pull nginx 安装nginx镜像&lt;/p>
@@ -115,7 +115,7 @@
 &lt;p>docker logs -f id 查看应用日志&lt;/p>
 &lt;p>docker logs -f -t &amp;ndash;tail=100 dockerid 动态查看最新100条日志&lt;/p>
 &lt;p>docker top id 查看容器内部应用进程&lt;/p>
-&lt;p>docker ps -a 查看所有容器(可查容器id)&lt;/p></description></item><item><title>Git submodule</title><link>https://ceshitian.github.io/post/git-submodule/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/git-submodule/</guid><description>&lt;ul>
+&lt;p>docker ps -a 查看所有容器(可查容器id)&lt;/p></description></item><item><title>Git submodule</title><link>https://bluespace3.github.io/post/git-submodule/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/git-submodule/</guid><description>&lt;ul>
 &lt;li>
 &lt;ul>
 &lt;li>&lt;a href="https://guangpuyun.feishu.cn/docx/J6CDd7QvkohJ3mxEKt3czp31nOe#J6CDd7QvkohJ3mxEKt3czp31nOe">Git submodule添加子项目_库&lt;/a>&lt;/li>
@@ -152,7 +152,7 @@
 &lt;p>下载的工程带有submodule&lt;/p>
 &lt;p>当使用git clone下来的工程中带有submodule时，初始的时候，submodule的内容并不会自动下载下来的，此时，只需执行如下命令：&lt;/p>
 &lt;p>git submodule update –init –recursive&lt;/p>
-&lt;p>即可将子模块内容下载下来后工程才不会缺少相应的文件。&lt;/p></description></item><item><title>git子项目</title><link>https://ceshitian.github.io/post/git%E6%B7%BB%E5%8A%A0%E5%AD%90%E9%A1%B9%E7%9B%AE/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/git%E6%B7%BB%E5%8A%A0%E5%AD%90%E9%A1%B9%E7%9B%AE/</guid><description>&lt;ul>
+&lt;p>即可将子模块内容下载下来后工程才不会缺少相应的文件。&lt;/p></description></item><item><title>git子项目</title><link>https://bluespace3.github.io/post/git%E6%B7%BB%E5%8A%A0%E5%AD%90%E9%A1%B9%E7%9B%AE/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/git%E6%B7%BB%E5%8A%A0%E5%AD%90%E9%A1%B9%E7%9B%AE/</guid><description>&lt;ul>
 &lt;li>项目中添加子项目
 &lt;ul>
 &lt;li>1、git clone 父项目url&lt;/li>
@@ -167,7 +167,7 @@
 不加&amp;ndash;recurse-submodules，克隆的子项目是空的&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Hugo静态网站生成器入门指南</title><link>https://ceshitian.github.io/post/hugo-intro/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/hugo-intro/</guid><description>&lt;h2 id="什么是hugo">什么是Hugo？&lt;/h2>
+&lt;/ul></description></item><item><title>Hugo静态网站生成器入门指南</title><link>https://bluespace3.github.io/post/hugo-intro/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/hugo-intro/</guid><description>&lt;h2 id="什么是hugo">什么是Hugo？&lt;/h2>
 &lt;p>Hugo是一个用Go语言编写的快速、现代的静态网站生成器。它可以将Markdown文件转换为HTML页面，非常适合构建文档网站、博客等。&lt;/p>
 &lt;h2 id="hugo的主要特点">Hugo的主要特点&lt;/h2>
 &lt;ul>
@@ -198,7 +198,7 @@
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">hugo
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后将public目录下的文件部署到Web服务器即可。&lt;/p>
 &lt;h2 id="总结">总结&lt;/h2>
-&lt;p>Hugo是一个功能强大且易于使用的静态网站生成器，非常适合构建个人博客、文档网站等。通过本指南，您已经了解了Hugo的基本使用方法，接下来可以探索更多高级功能。&lt;/p></description></item><item><title>linux安装python</title><link>https://ceshitian.github.io/post/linux%E5%AE%89%E8%A3%85python/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/linux%E5%AE%89%E8%A3%85python/</guid><description>&lt;p>#依赖包&lt;/p>
+&lt;p>Hugo是一个功能强大且易于使用的静态网站生成器，非常适合构建个人博客、文档网站等。通过本指南，您已经了解了Hugo的基本使用方法，接下来可以探索更多高级功能。&lt;/p></description></item><item><title>linux安装python</title><link>https://bluespace3.github.io/post/linux%E5%AE%89%E8%A3%85python/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/linux%E5%AE%89%E8%A3%85python/</guid><description>&lt;p>#依赖包&lt;/p>
 &lt;p>yum -y groupinstall &amp;ldquo;Development tools&amp;rdquo;&lt;/p>
 &lt;p>yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel&lt;/p>
 &lt;p>#下载 Python3&lt;/p>
@@ -212,7 +212,7 @@
 &lt;p>make &amp;amp;&amp;amp; make install&lt;/p>
 &lt;p>#给个软链&lt;/p>
 &lt;p>ln -sf /usr/local/python3/bin/python3 /usr/bin/python3&lt;/p>
-&lt;p>ln -sf /usr/local/python3/bin/pip3 /usr/bin/pip3&lt;/p></description></item><item><title>linux常用命令</title><link>https://ceshitian.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid><description>&lt;h3 id="文章目录">文章目录&lt;/h3>
+&lt;p>ln -sf /usr/local/python3/bin/pip3 /usr/bin/pip3&lt;/p></description></item><item><title>linux常用命令</title><link>https://bluespace3.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid><description>&lt;h3 id="文章目录">文章目录&lt;/h3>
 &lt;ul>
 &lt;li>一、目录操作
 &lt;ul>
@@ -297,7 +297,7 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> - 上一次访问的目录
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> .. 上一级目录
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="m">123456&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>查看目录内信息&lt;/strong>&lt;/p></description></item><item><title>playwright的python文档</title><link>https://ceshitian.github.io/post/playwright%E7%9A%84python%E6%96%87%E6%A1%A3/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/playwright%E7%9A%84python%E6%96%87%E6%A1%A3/</guid><description>&lt;h1 id="安装">安装&lt;/h1>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>查看目录内信息&lt;/strong>&lt;/p></description></item><item><title>playwright的python文档</title><link>https://bluespace3.github.io/post/playwright%E7%9A%84python%E6%96%87%E6%A1%A3/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/playwright%E7%9A%84python%E6%96%87%E6%A1%A3/</guid><description>&lt;h1 id="安装">安装&lt;/h1>
 &lt;h2 id="引言">引言&lt;/h2>
 &lt;p>Playwright 是专门为满足端到端测试的需求而创建的。Playwright 支持包括 Chromium、WebKit 和 Firefox 在内的所有现代渲染引擎。在 Windows、Linux 和 macOS 上进行测试，无论是本地还是在 CI 上，无论是无头模式还是有头模式，都可以使用原生移动设备仿真。&lt;/p>
 &lt;p>Playwright 库可以用作通用的浏览器自动化工具，为同步和异步 Python 提供了一套强大的 API 来自动化 Web 应用程序。&lt;/p>
@@ -336,7 +336,7 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># 期望页面有一个名为“安装”的标题。&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">expect&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">page&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">get_by_role&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;heading&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;Installation&amp;#34;&lt;/span>&lt;span class="p">))&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">to_be_visible&lt;/span>&lt;span class="p">()&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="运行示例测试">运行示例测试&lt;/h2>
-&lt;p>默认情况下，测试将在 Chromium 上运行。这可以通过 CLI 选项进行配置。测试以无头模式运行，这意味着在运行测试时不会打开浏览器 UI。测试结果和测试日志将在终端中显示。&lt;/p></description></item><item><title>python常见踩坑记录</title><link>https://ceshitian.github.io/post/python%E9%9D%9E%E5%90%8C%E7%BA%A7%E7%9B%AE%E5%BD%95%E8%B0%83%E7%94%A8%E6%8A%A5%E9%94%99/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/python%E9%9D%9E%E5%90%8C%E7%BA%A7%E7%9B%AE%E5%BD%95%E8%B0%83%E7%94%A8%E6%8A%A5%E9%94%99/</guid><description>&lt;h2 id="项目结构">项目结构：&lt;/h2>
+&lt;p>默认情况下，测试将在 Chromium 上运行。这可以通过 CLI 选项进行配置。测试以无头模式运行，这意味着在运行测试时不会打开浏览器 UI。测试结果和测试日志将在终端中显示。&lt;/p></description></item><item><title>python常见踩坑记录</title><link>https://bluespace3.github.io/post/python%E9%9D%9E%E5%90%8C%E7%BA%A7%E7%9B%AE%E5%BD%95%E8%B0%83%E7%94%A8%E6%8A%A5%E9%94%99/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/python%E9%9D%9E%E5%90%8C%E7%BA%A7%E7%9B%AE%E5%BD%95%E8%B0%83%E7%94%A8%E6%8A%A5%E9%94%99/</guid><description>&lt;h2 id="项目结构">项目结构：&lt;/h2>
 &lt;p>&lt;img src="https://guangpuyun.feishu.cn/space/api/box/stream/download/asynccode/?code=N2E4ZjQ0N2I5MmEwYWExMjg1YmVmOTcyZTBhNTk1ZTlfdXlaSzZjU09wSE5mR1AyYTBuYVg1SElQcHJIUENSVWpfVG9rZW46S3AyMmI4bFN1b2VjeG54V251Q2NzMHBhbm5nXzE3NDI0NjExMTk6MTc0MjQ2NDcxOV9WNA" alt="">&lt;/p>
 &lt;h2 id="问题">问题：&lt;/h2>
 &lt;p>执行文件调用dir1，间接调用dir2。执行时报错：“ModuleNotFoundError: No module named &amp;lsquo;dir1.dir2&amp;rsquo;;”&lt;/p>
@@ -354,7 +354,7 @@ import os,sys&lt;/p>
 &lt;p>且导包从项目执行入口文件同级开始写&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="https://guangpuyun.feishu.cn/space/api/box/stream/download/asynccode/?code=MzlhZjJjZjgzNzk4YjdjNzU2ZWQ1ZDdjMjA5ODI0MDZfTzN2ZmlQOVM0a1BERU95VkY1amZ5bTFXMEJsc09pTExfVG9rZW46UlgyTmJCdHdLb0I5Z2d4VktJcmNEbDNvblljXzE3NDI0NjExMTk6MTc0MjQ2NDcxOV9WNA" alt="">&lt;/p></description></item><item><title>python的os模块使用</title><link>https://ceshitian.github.io/post/python%E4%B8%AD%E7%9A%84os%E5%87%BD%E6%95%B0%E7%94%A8%E6%B3%95/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/python%E4%B8%AD%E7%9A%84os%E5%87%BD%E6%95%B0%E7%94%A8%E6%B3%95/</guid><description>&lt;ul>
+&lt;p>&lt;img src="https://guangpuyun.feishu.cn/space/api/box/stream/download/asynccode/?code=MzlhZjJjZjgzNzk4YjdjNzU2ZWQ1ZDdjMjA5ODI0MDZfTzN2ZmlQOVM0a1BERU95VkY1amZ5bTFXMEJsc09pTExfVG9rZW46UlgyTmJCdHdLb0I5Z2d4VktJcmNEbDNvblljXzE3NDI0NjExMTk6MTc0MjQ2NDcxOV9WNA" alt="">&lt;/p></description></item><item><title>python的os模块使用</title><link>https://bluespace3.github.io/post/python%E4%B8%AD%E7%9A%84os%E5%87%BD%E6%95%B0%E7%94%A8%E6%B3%95/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/python%E4%B8%AD%E7%9A%84os%E5%87%BD%E6%95%B0%E7%94%A8%E6%B3%95/</guid><description>&lt;ul>
 &lt;li>os.listdir(path)
 获取文件夹下全部文件，的列表&lt;/li>
 &lt;li>os.path.join(path1,path2)
@@ -362,7 +362,7 @@ import os,sys&lt;/p>
 &lt;li>base_dir = os.path.dirname(os.path.abspath(&lt;strong>file&lt;/strong>))
 获取当前文件的绝对路径&lt;/li>
 &lt;li>input_file = os.path.join(base_dir, &lt;strong>&amp;quot;../resource/swaggerApi/clinic-ysb-app_OpenAPI.json&amp;quot;&lt;/strong>)&lt;/li>
-&lt;/ul></description></item><item><title>scrapy爬柚子网示例</title><link>https://ceshitian.github.io/post/scrapy%E7%88%AC%E6%9F%9A%E5%AD%90%E7%BD%91%E7%A4%BA%E4%BE%8B/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/scrapy%E7%88%AC%E6%9F%9A%E5%AD%90%E7%BD%91%E7%A4%BA%E4%BE%8B/</guid><description>&lt;p>柚子网https://www.uu-zz.com/&lt;/p>
+&lt;/ul></description></item><item><title>scrapy爬柚子网示例</title><link>https://bluespace3.github.io/post/scrapy%E7%88%AC%E6%9F%9A%E5%AD%90%E7%BD%91%E7%A4%BA%E4%BE%8B/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/scrapy%E7%88%AC%E6%9F%9A%E5%AD%90%E7%BD%91%E7%A4%BA%E4%BE%8B/</guid><description>&lt;p>柚子网https://www.uu-zz.com/&lt;/p>
 &lt;p>爬取页码&lt;/p>
 &lt;p>遍历页面内对应的视频集的链接&lt;/p>
 &lt;p>&lt;img src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/O1YCbvbQBoiZYHxxbO7cqOi6nKb?preview_type=16" alt="">&lt;/p>
@@ -370,7 +370,7 @@ import os,sys&lt;/p>
 &lt;p>&lt;img src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/CKMPbtR4souEnDxWowNcxAuenNc?preview_type=16" alt="">!&lt;/p>
 &lt;p>&lt;a href="https://security.feishu.cn/link/safety?target=https%3A%2F%2Fwww.uu-zz.com%2F%2B%E5%AD%90%E8%A7%86%E9%A2%91%E9%93%BE%E6%8E%A5&amp;amp;scene=ccm&amp;amp;logParams=%7B%22location%22%3A%22ccm_mindnote%22%7D&amp;amp;lang=zh-CN">https://www.uu-zz.com/+子视频链接&lt;/a>，发送get请求&lt;/p>
 &lt;p>&lt;img src="https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/ClLDbx3s5o29xpxWKrncnG3Enzg?preview_type=16" alt="">!&lt;/p>
-&lt;p>获得m3u8文件，储存在数据库&lt;/p></description></item><item><title>unnitest</title><link>https://ceshitian.github.io/post/unnitest%E7%AC%94%E8%AE%B0/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/unnitest%E7%AC%94%E8%AE%B0/</guid><description>&lt;ul>
+&lt;p>获得m3u8文件，储存在数据库&lt;/p></description></item><item><title>unnitest</title><link>https://bluespace3.github.io/post/unnitest%E7%AC%94%E8%AE%B0/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/unnitest%E7%AC%94%E8%AE%B0/</guid><description>&lt;ul>
 &lt;li>一、引入
 &lt;ul>
 &lt;li>1.导包，import unnitest&lt;/li>
@@ -426,7 +426,7 @@ import os,sys&lt;/p>
 &lt;/li>
 &lt;li>面试相关&lt;img src="image/unnitest%E7%AC%94%E8%AE%B0/1742460820437.png" alt="1742460820437">&lt;/li>
 &lt;li>pycharm关闭pytest测试模式&lt;img src="image/unnitest%E7%AC%94%E8%AE%B0/1742460849632.png" alt="1742460849632">&lt;/li>
-&lt;/ul></description></item><item><title>测试平台教程</title><link>https://ceshitian.github.io/post/%E6%B5%8B%E8%AF%95%E5%B9%B3%E5%8F%B0%E5%88%86%E4%BA%AB/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/%E6%B5%8B%E8%AF%95%E5%B9%B3%E5%8F%B0%E5%88%86%E4%BA%AB/</guid><description>&lt;p>一、基本介绍：（）
+&lt;/ul></description></item><item><title>测试平台教程</title><link>https://bluespace3.github.io/post/%E6%B5%8B%E8%AF%95%E5%B9%B3%E5%8F%B0%E5%88%86%E4%BA%AB/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/%E6%B5%8B%E8%AF%95%E5%B9%B3%E5%8F%B0%E5%88%86%E4%BA%AB/</guid><description>&lt;p>一、基本介绍：（）
 桌面端工具（一年左右），使用python的wxpython框架编写，使用pyinstaller打包为桌面exe文件；缺点：体积大，不便于分享；&lt;/p>
 &lt;p>&lt;img src="./images/image_0fa5b6bdd33056f5c14c2ba21dca4298.png" alt="">&lt;/p>
 &lt;p>web端应用（10月初至今）：flask+vue实现；优点，通过脚本实现热更新；链接形式便于分享。&lt;/p>
@@ -477,7 +477,7 @@ bind = &amp;ldquo;0.0.0.0:80&amp;rdquo; 监听IP放宽，以便于Docker之间�
 采用启动服务：
 gunicorn flask_index:app -c ./gunicorn.conf.py
 注意：Gunicorn只能运行在Linux环境中，不支持windows平台，因此在windows调试的时候不要用这个方式启动flask；
-2. 前端：vue 、node.js（前端的包管理工具，类似python的pip包管理工具）、vue-cli（vue项目的脚手架）、element-ui、echats提供页面交互;&lt;/p></description></item><item><title>提示词技巧</title><link>https://ceshitian.github.io/post/%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%8A%80%E5%B7%A7/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://ceshitian.github.io/post/%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%8A%80%E5%B7%A7/</guid><description>&lt;p>提示词技巧
+2. 前端：vue 、node.js（前端的包管理工具，类似python的pip包管理工具）、vue-cli（vue项目的脚手架）、element-ui、echats提供页面交互;&lt;/p></description></item><item><title>提示词技巧</title><link>https://bluespace3.github.io/post/%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%8A%80%E5%B7%A7/</link><pubDate>Thu, 20 Mar 2025 12:59:32 +0800</pubDate><guid>https://bluespace3.github.io/post/%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%8A%80%E5%B7%A7/</guid><description>&lt;p>提示词技巧
 总结：&lt;/p>
 &lt;p>&lt;img src="./images/image_ba757d41c7a7ffe6c96cab21733204f5.png" alt="">&lt;/p>
 &lt;p>&lt;img src="./images/image_8cbe461813a474391f33fb335ebab8f6.png" alt="">&lt;/p>
@@ -485,7 +485,7 @@ gunicorn flask_index:app -c ./gunicorn.conf.py
 &lt;p>&lt;img src="./images/image_8dd7fba4e99a354d6df663aa57049cc0.png" alt="">&lt;/p>
 &lt;p>&lt;img src="./images/image_9368612a92cd51d44b6d8ef31705d88a.png" alt="">&lt;/p>
 &lt;p>官方提示词库：
-&lt;a href="https://api-docs.deepseek.com/zh-cn/prompt-library">https://api-docs.deepseek.com/zh-cn/prompt-library&lt;/a>&lt;/p></description></item><item><title>go语言--安装和环境搭配</title><link>https://ceshitian.github.io/post/go%E8%AF%AD%E8%A8%80--%E5%AE%89%E8%A3%85%E5%92%8C%E7%8E%AF%E5%A2%83%E6%90%AD%E9%85%8D/</link><pubDate>Sat, 15 Mar 2025 11:00:00 -0700</pubDate><guid>https://ceshitian.github.io/post/go%E8%AF%AD%E8%A8%80--%E5%AE%89%E8%A3%85%E5%92%8C%E7%8E%AF%E5%A2%83%E6%90%AD%E9%85%8D/</guid><description>&lt;h3 id="一go简介">一.Go简介&lt;/h3>
+&lt;a href="https://api-docs.deepseek.com/zh-cn/prompt-library">https://api-docs.deepseek.com/zh-cn/prompt-library&lt;/a>&lt;/p></description></item><item><title>go语言--安装和环境搭配</title><link>https://bluespace3.github.io/post/go%E8%AF%AD%E8%A8%80--%E5%AE%89%E8%A3%85%E5%92%8C%E7%8E%AF%E5%A2%83%E6%90%AD%E9%85%8D/</link><pubDate>Sat, 15 Mar 2025 11:00:00 -0700</pubDate><guid>https://bluespace3.github.io/post/go%E8%AF%AD%E8%A8%80--%E5%AE%89%E8%A3%85%E5%92%8C%E7%8E%AF%E5%A2%83%E6%90%AD%E9%85%8D/</guid><description>&lt;h3 id="一go简介">一.Go简介&lt;/h3>
 &lt;p>Go 语言（又称 Golang）是由 Google 开发的一种开源&lt;a href="https://so.csdn.net/so/search?q=%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80&amp;amp;spm=1001.2101.3001.7020">编程语言&lt;/a>，于 2009 年正式对外发布。下面从多个方面为你介绍它：&lt;/p>
 &lt;h4 id="设计目标">设计目标&lt;/h4>
 &lt;p>Go 语言的设计初衷是为了解决大规模&lt;a href="https://so.csdn.net/so/search?q=%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91&amp;amp;spm=1001.2101.3001.7020">软件开发&lt;/a>中的一些问题，比如编译速度慢、并发编程复杂、代码可维护性差等。所以它结合了静态语言的性能优势和动态语言的开发效率。&lt;/p>
@@ -523,14 +523,14 @@ gunicorn flask_index:app -c ./gunicorn.conf.py
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">package&lt;/span> &lt;span class="nx">main&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="s">&amp;#34;fmt&amp;#34;&lt;/span> &lt;span class="kd">func&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">fmt&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nf">Println&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Hello, World!&amp;#34;&lt;/span>&lt;span class="p">)}&lt;/span>&lt;span class="nx">AI写代码&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://i-blog.csdnimg.cn/direct/18dc582244354f9883843fc711ddb6d2.png" alt="">&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cobol" data-lang="cobol">&lt;span class="line">&lt;span class="cl">&lt;span class="c">go bui&lt;/span>&lt;span class="nv">ld&lt;/span> &lt;span class="err">文件名&lt;/span>&lt;span class="o">+&lt;/span> &lt;span class="err">运行程序&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="kr">go&lt;/span> &lt;span class="nv">run文件名AI&lt;/span>&lt;span class="err">写代码
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>mac使用笔记</title><link>https://ceshitian.github.io/post/mac%E7%94%B5%E8%84%91%E4%BD%BF%E7%94%A8%E9%80%9F%E8%AE%B0/</link><pubDate>Sat, 15 Mar 2025 11:00:00 -0700</pubDate><guid>https://ceshitian.github.io/post/mac%E7%94%B5%E8%84%91%E4%BD%BF%E7%94%A8%E9%80%9F%E8%AE%B0/</guid><description>&lt;p>在Mac终端中，有几种方法可以连续删除命令：&lt;/p>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>mac使用笔记</title><link>https://bluespace3.github.io/post/mac%E7%94%B5%E8%84%91%E4%BD%BF%E7%94%A8%E9%80%9F%E8%AE%B0/</link><pubDate>Sat, 15 Mar 2025 11:00:00 -0700</pubDate><guid>https://bluespace3.github.io/post/mac%E7%94%B5%E8%84%91%E4%BD%BF%E7%94%A8%E9%80%9F%E8%AE%B0/</guid><description>&lt;p>在Mac终端中，有几种方法可以连续删除命令：&lt;/p>
 &lt;ol>
 &lt;li>使用 Ctrl + W ：删除光标前的一个单词&lt;/li>
 &lt;li>使用 Ctrl + U ：删除光标前的整行内容&lt;/li>
 &lt;li>使用 Ctrl + K ：删除光标后的整行内容&lt;/li>
 &lt;li>使用 Option + Delete ：删除光标前的一个单词（与 Ctrl + W 类似）
 这些快捷键可以帮助你快速删除命令内容，提高终端操作效率。&lt;/li>
-&lt;/ol></description></item><item><title>数据库使用笔记</title><link>https://ceshitian.github.io/post/mysql----%E5%A4%8D%E5%90%88%E6%9F%A5%E8%AF%A2/</link><pubDate>Sat, 15 Mar 2025 11:00:00 -0700</pubDate><guid>https://ceshitian.github.io/post/mysql----%E5%A4%8D%E5%90%88%E6%9F%A5%E8%AF%A2/</guid><description>&lt;blockquote>
+&lt;/ol></description></item><item><title>数据库使用笔记</title><link>https://bluespace3.github.io/post/mysql----%E5%A4%8D%E5%90%88%E6%9F%A5%E8%AF%A2/</link><pubDate>Sat, 15 Mar 2025 11:00:00 -0700</pubDate><guid>https://bluespace3.github.io/post/mysql----%E5%A4%8D%E5%90%88%E6%9F%A5%E8%AF%A2/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://so.csdn.net/so/search?q=%E6%95%B0%E6%8D%AE%E5%BA%93&amp;amp;spm=1001.2101.3001.7020">数据库&lt;/a>的查询是数据库使用中比较重要的环节，前面的基础查询比较简单，不做介绍，可自行查阅。本文主要介绍复合查询，并结合用例进行讲解。&lt;/p>&lt;/blockquote>
 &lt;blockquote>
 &lt;p>本文的用例依据Soctt模式的经典测试表，可以自行下载，也可以自己创建&lt;br>
@@ -598,7 +598,7 @@ gunicorn flask_index:app -c ./gunicorn.conf.py
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">(&lt;/span>&lt;span class="mi">4&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">2001&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">3000&lt;/span>&lt;span class="p">),&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">(&lt;/span>&lt;span class="mi">5&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">3001&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">9999&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">12345678910111213141516171819202122232425262728293031&lt;/span>&lt;span class="n">AI写代码&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>创建好以后，如果表的内容和下图一样，那基本就没问题了&lt;/p></description></item><item><title>Hello World</title><link>https://ceshitian.github.io/post/hello/</link><pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate><guid>https://ceshitian.github.io/post/hello/</guid><description/></item><item><title>关于</title><link>https://ceshitian.github.io/about/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://ceshitian.github.io/about/</guid><description/></item><item><title>友情链接</title><link>https://ceshitian.github.io/friend/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://ceshitian.github.io/friend/</guid><description>&lt;h2 id="本站信息">本站信息&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>创建好以后，如果表的内容和下图一样，那基本就没问题了&lt;/p></description></item><item><title>Hello World</title><link>https://bluespace3.github.io/post/hello/</link><pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate><guid>https://bluespace3.github.io/post/hello/</guid><description/></item><item><title>关于</title><link>https://bluespace3.github.io/about/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://bluespace3.github.io/about/</guid><description/></item><item><title>友情链接</title><link>https://bluespace3.github.io/friend/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://bluespace3.github.io/friend/</guid><description>&lt;h2 id="本站信息">本站信息&lt;/h2>
 &lt;ul>
 &lt;li>站名： 拔剑Sketon&lt;/li>
 &lt;li>站长： 拔剑Sketon&lt;/li>
