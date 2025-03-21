@@ -3,7 +3,7 @@
 ---
 title: "linux安装python"
 
-
+categories: ["技术",  "linux", "python"]
 date: 2025-03-20T12:59:32+08:00
 
 

@@ -1,5 +1,6 @@
 ---
 title: "Hugo静态网站生成器入门指南"
+categories: ["博客", "hugo"]
 date: 2025-03-20T12:59:32+08:00
 draft: false
 tags: ["Hugo", "静态网站", "教程"]

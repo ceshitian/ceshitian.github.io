@@ -1,6 +1,6 @@
 ---
 title: "scrapy爬柚子网示例"
-
+categories: ["技术", "python"]
 
 date: 2025-03-20T12:59:32+08:00
 

@@ -1,6 +1,6 @@
 ---
 title: "unnitest"
-
+categories: ["技术", "测试", "python"]
 date: 2025-03-20T12:59:32+08:00
 
 draft: false

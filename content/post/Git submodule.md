@@ -2,6 +2,7 @@
 ---
 title: "Git submodule"
 
+categories: ["技术",  "git", "hugo"]
 
 date: 2025-03-20T12:59:32+08:00
 

@@ -3,7 +3,7 @@
 ---
 title: "python常见踩坑记录"
 
-
+categories: ["技术", "编程", "python"]
 date: 2025-03-20T12:59:32+08:00
 
 

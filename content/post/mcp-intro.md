@@ -1,5 +1,6 @@
 ---
 title: "MCP入门指南"
+categories: ["工具",  "开发"]
 date: 2025-03-20T13:48:29+08:00
 draft: false
 tags: ["MCP", "工具", "开发","插件"]

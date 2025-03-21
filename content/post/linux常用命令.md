@@ -1,7 +1,7 @@
 
 ---
 title: "linux常用命令"
-
+categories: ["技术", "linux"]
 date: 2025-03-20T12:59:32+08:00
 
 draft: false
