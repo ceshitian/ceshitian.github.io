@@ -24,7 +24,7 @@ git commit -m "更新博客"
 REMOTE_URL=$(git remote get-url origin 2>/dev/null)
 if [ -z "$REMOTE_URL" ]; then
     echo "未检测到远程仓库，正在添加..."
-    git remote add origin https://github.com/ceshitian/ceshitian.github.io
+    git remote add origin https://github.com/bluespace3/bluespace3.github.io
 else
     echo "已关联远程仓库：$REMOTE_URL"
 fi
