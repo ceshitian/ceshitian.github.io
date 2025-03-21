@@ -1,5 +1,10 @@
-# 初始化Git仓库（如果尚未初始化）
-git init
+# 判断是否已初始化Git仓库
+if [ ! -d ".git" ]; then
+    echo "未检测到Git仓库，正在初始化..."
+    git init
+else
+    echo "Git仓库已初始化"
+fi
 
 # 创建.gitignore文件，排除不需要版本控制的文件
 cat > .gitignore << EOF
@@ -16,8 +21,14 @@ git add .
 # 提交更改
 git commit -m "更新博客" 
 
-# 添加远程仓库
-git remote add origin https://github.com/ceshitian/ceshitian.github.io
+# 检查是否已关联远程仓库
+REMOTE_URL=$(git remote get-url origin 2>/dev/null)
+if [ -z "$REMOTE_URL" ]; then
+    echo "未检测到远程仓库，正在添加..."
+    git remote add origin https://github.com/ceshitian/ceshitian.github.io
+else
+    echo "已关联远程仓库：$REMOTE_URL"
+fi
 
 # 推送到GitHub
 git push -u origin main --force
