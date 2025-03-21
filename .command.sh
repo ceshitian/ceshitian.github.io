@@ -14,7 +14,7 @@ EOF
 git add .
 
 # 提交更改
-git commit -m "初始化博客源码" 
+git commit -m "更新博客" 
 
 # 添加远程仓库
 git remote add origin https://github.com/ceshitian/ceshitian.github.io

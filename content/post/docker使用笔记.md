@@ -1,17 +1,16 @@
-
 ---
 title: "docker常用命令"
 
 
 date: 2025-03-20T12:59:32+08:00
 
+cover: rgb(117,117,255)
 
 draft: false
 
 
 tags: ["docker", "静态网站", "教程"]
 ---
-
 docker pull ubuntu 载入ubuntu 镜像
 
 docker pull training/webapp  # 载入镜像

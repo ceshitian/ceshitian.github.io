@@ -30,15 +30,15 @@ author: 新人类 # 应该改为你的名字
 description: "致敬勇于探索未知的人类！"  # 可以改为你的个人描述
 subtitle: "新人类"  # 可以改为你的个人副标题
 
-banner: "images/banner.webp"  # 确保这个图片文件存在
+banner: "images/78ac40f951241471287ff985bc25b24b2f03a241.jpg"  # 确保这个图片文件存在
 # 删除这一行，避免重复设置
-avatar: "images/banner-600w.webp"  # 确保这个头像文件存在
+# avatar: "https://s21.ax1x.com/2025/03/21/pE0C2Xq.jpg"  # 确保这个头像文件存在
 # You can also write it in the form of the following url
 # banner: "https://example.com"
 
 # If you want to use the srcset attribute, please enable it
 banner_srcset:
-  enable: true
+  enable: false
   srcset:
     - src: "images/78ac40f951241471287ff985bc25b24b2f03a241.jpg"
       media: "(min-width: 800px)"
@@ -50,7 +50,7 @@ banner_srcset:
       media: "(min-width: 800px)"
 
 # 修改为正确的路径，确保以/开头
-avatar: "/images/banner-600w.webp"
+avatar: "images/78ac40f951241471287ff985bc25b24b2f03a241.jpg"
 # Control the display of the post cover
 # If not set, the banner image will be displayed by default
 # Its priority is lower than the cover in the Front-matter
@@ -99,7 +99,7 @@ injector:
       
       /* 导航菜单项文字颜色 */
       .menu-item a {
-        color: white !important;
+        color: white !重要;
       }
       
       /* 导航菜单图标颜色 */
@@ -117,7 +117,7 @@ injector:
       .subtitle {
         color: #0033cc !important;
         font-weight: 700 !important;
-        text-shadow: 0 0 3px rgba(255, 255, 255, 0.7) !important;
+        text-shadow: 0 0 3px a(255, 255, 255, 0.7) !important;
         font-size: 1.3em !important;
         letter-spacing: 1px !important;
       }
@@ -135,16 +135,16 @@ injector:
         border-width: 2px !important;
       }
       
-      /* 头像样式 */
-      .author-info img.avatar {
-        display: block !important;
-        width: 120px !important;
-        height: 120px !important;
-        border-radius: 50% !important;
-        border: 3px solid var(--theme-color) !important;
-        margin: 0 auto 10px !important;
-        box-shadow: 0 0 10px rgba(0, 51, 153, 0.3) !important;
-      }
+      # /* 头像样式 */
+      # .author-info img.avatar {
+      #   display: block !important;
+      #   width: 120px !important;
+      #   height: 120px !important;
+      #   border-radius: 50% !important;
+      #   border: 3px solid var(--theme-color) !important;
+      #   margin: 0 auto 10px !important;rgb
+      #   box-shadow: 0 0 10px rgba(0, 51, 153, 0.3) !important;
+      # }
       
       /* 标签和分类按钮背景 */
       .tag-item, .category-item, .friend-item, .recent-post-item {
@@ -285,7 +285,7 @@ reimu_cursor:
     pointer: ../images/cursor/reimu-cursor-pointer.png
     text: ../images/cursor/reimu-cursor-text.png
 
-icon_font: 4552607_0khxww3tj3q9
+icon_font: false
 
 # https://fonts.google.com/
 # Google Fonts, higher priority than local_font
@@ -590,12 +590,12 @@ share:
 
 # show categories card on home page
 home_categories:
-  enable: false
+  enable: true
   content:
     - categories: # string (single-layer category) or array (multi-layer category)
-      cover: # empty means random cover
+      cover: rgb(117,117,255)
     - categories:
-      cover:
+      cover: rgb(117,117,255)
 
 ########################################
 # Experimental features
@@ -641,19 +641,22 @@ pace:
 player:
   # if you enable meting, you must enable aplayer first
   aplayer:
-    # https://github.com/DIYgod/APlayer
-    enable: false
+    enable: true  # 启用 APlayer 播放器
     options:
-      audio: []
-      fixed: true
-      autoplay:
-      loop:
-      order:
-      preload:
-      volume:
-      mutex:
-      listFolded:
-      lrcType:
+      audio:
+        - name: "Free Compress"  # 音乐名称
+          artist: "Unknown Artist"  # 艺术家名称
+          url: "/freecompress-2906303867.mp3"  # 音频文件路径，确保以 / 开头
+          cover: ""  # 可选，封面图片路径
+      fixed: true  # 固定在页面底部
+      autoplay: false  # 是否自动播放
+      loop: all  # 循环模式，可选值：'all', 'one', 'none'
+      order: list  # 播放顺序，可选值：'list', 'random'
+      preload: auto  # 预加载模式，可选值：'none', 'metadata', 'auto'
+      volume: 0.7  # 默认音量，范围 0~1
+      mutex: true  # 是否阻止多个播放器同时播放
+      listFolded: false  # 播放列表是否折叠
+      lrcType: 0  # 歌词类型，0 表示无歌词
   meting:
     # https://github.com/metowolf/MetingJS
     # if you want to use meting, please enable aplayer first
@@ -672,3 +675,5 @@ player:
 pangu:
   # more information: https://github.com/vinta/pangu.js 
   enable: false  # enable pangu.js to add space between Chinese and English
+
+algolia_search.enable: true
